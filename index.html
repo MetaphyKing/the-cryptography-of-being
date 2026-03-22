@@ -27,13 +27,14 @@
     --mono:  'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   }
 
-  html { scroll-behavior: smooth; font-size: 16px; }
+  html { scroll-behavior: smooth; font-size: 16px; overflow: hidden; }
   body {
     font-family: var(--sans);
     background: var(--dark);
     color: var(--text);
     line-height: 1.78;
     overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   /* ── PARTICLE CANVAS ─────────────────────────────────── */
